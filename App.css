@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://i.pinimg.com/originals/df/f1/6c/dff16cb229514bc2bc7b3ced7dfbb172.gif);
+  background-repeat: no-repeat;  
+  background-size: cover;
+  background-position: center;
+}
+/* modo oscuro. */
+
+/* navegacion. */
+
+/* login */
+.padre__login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* hijo-ingreso */
+.hijo__ingreso {
+  border: 0.5px solid #b9b9b9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  height: 350px;
+  z-index: 2;
+  position: absolute;
+  margin-right: 5rem;
+  border-radius: 15px;
+  background: #ffff;
+}
+.titulo__iniciar-sesion {
+  color: #70caf4;
+}
+.contenedor__input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2px;
+  gap: 1rem;
+}
+.input__login {
+  height: 30px;
+  background: #f2f2f2;
+  border: navajowhite;
+}
+.btn__ingresar {
+  width: 100px;
+  height: 30px;
+  background: #70caf4;
+  border: navajowhite;
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+}
+/* hijo-registro */
+.hijo__registro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 400px;
+  height: 300px;
+  z-index: 1;
+  position: relative;
+  background: #01a3ff;
+  text-align: justify;
+  transition: all 2s ease;
+}
+.hijo__registro:hover {
+  /* left: 250px; */
+  transform: translatex(17.5em);
+}
+.titulo__registro {
+  color: #fff;
+}
+.p__subtitulo-registrarse {
+  color: #fff;
+}
+.btn__registrarse {
+  width: 120px;
+  height: 30px;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+}
+.input__registro{
+  width: 200px;
+  margin-left: 100px;
+}

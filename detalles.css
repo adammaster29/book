@@ -1,0 +1,87 @@
+.padre__detalles {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  gap: 1rem;
+}
+.hijo__img {
+  border: 1px solid #000;
+  width: 50%;
+  height: 550px;
+  transform: scale(0.8);
+  box-shadow: 0 31px 20px 0 gray;
+}
+.titulo__Detalles{
+    color: rgb(95, 94, 94);
+    font-size: 35px;
+}
+.texto__detalles{
+    color: rgb(75, 71, 71);
+}
+.hijo__descargar {
+  /* border: 0.5px solid #7e7c7c; */
+  width: 50%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  text-align: justify;
+  box-shadow: -1px 22px 35px gray;
+  background: lemonchiffon;
+}
+.btn__contenedor-detalles {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+a{text-decoration: none;}
+.regresar{
+color :rgba(11, 126, 161, 0.767);
+cursor: pointer;
+border: 1px solid gray;
+width: 100px;
+text-align: center;
+border-radius: 8px;
+}
+.descarga{
+  color :rgba(11, 126, 161, 0.767);
+border: 1px solid gray;
+width: 100px;
+text-align: center;
+border-radius: 8px;
+}
+
+
+
+
+.btn-detail{
+  overflow: hidden;
+  background-color: transparent;
+  position: relative;
+}
+.btn-detail span {
+  position: relative;
+  z-index: 2;
+}
+.btn-detail::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #3498db;
+  transition: left 1.3s ease;
+}
+
+.btn-detail:hover::before {
+  left: 0;
+}
+.btn-detail:hover{
+  color: antiquewhite;
+  transition: all 2s ease-out;
+}

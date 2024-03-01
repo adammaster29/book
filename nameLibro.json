@@ -1,0 +1,18 @@
+[
+{"id":1,"titulo":"literatura","image":{"url":"/img/castellano/castellano-literatura.png"},"libro":{"pdf":""}},
+{"id":2,"titulo":"coquito","image":{"url":"img/castellano/coquito.jpg"},"libro":{"pdf":""}},
+{"id":3,"titulo":"cuentos-para-niños","image":{"url":"/img/castellano/cuentos-para-ninos.png"},"libro":{"pdf":""}},
+{"id":4,"titulo":"Alegria-de-Leer","image":{"url":"/img/castellano/La-Alegria-de-Leer-primer-grado.jpg"},"libro":{"pdf":""}},
+{"id":5,"titulo":"lenguaje 5 ","image":{"url":"img/castellano/lenguaje-5.png"},"libro":{"pdf":""}},
+{"id":6,"titulo":"lenguaje","image":{"url":"/img/castellano/lenguaje-y-literatura.png"},"libro":{"pdf":""}},
+{"id":7,"titulo":"castellano 5","image":{"url":"/img/castellano/libro-castellano-5.jpg"},"libro":{"pdf":""}},
+{"id":8,"titulo":"Nacho-Primero","image":{"url":"/img/castellano/Nacho-Primer-Grado.jpg"},"libro":{"pdf":""}},
+{"id":9,"titulo":"Enseñanza de la matematicas","image":{"url":"/img/matematica/enseñanza-de-la-matematicas.png"},"libro":{"pdf":""}},
+{"id":10,"titulo":"Matematicas 2","image":{"url":"/img/matematica/matematicas 2.png"},"libro":{"pdf":""}},
+{"id":11,"titulo":"Matematicas 3","image":{"url":"/img/matematica/matematicas-3.png"},"libro":{"pdf":""}},
+{"id":12,"titulo":"Matematicas 5","image":{"url":"/img/matematica/matematicas-5.png"},"libro":{"pdf":""}},
+{"id":13,"titulo":"cuaderno de trabajo","image":{"url":"/img/matematica/matematicas-cuaderno-de-trabajo.png"},"libro":{"pdf":""}},
+{"id":14,"titulo":"Numeros naturales ","image":{"url":"/img/matematica/numeros-Naturales.png"},"libro":{"pdf":""}},
+{"id":15,"titulo":"ordenando numeros","image":{"url":"/img/matematica/ordenamos-numeros.png"},"libro":{"pdf":""}},
+{"id":16,"titulo":"matematica 4","image":{"url":"/img/matematica/matematica-4.png"},"libro":{"pdf":""}}
+]
