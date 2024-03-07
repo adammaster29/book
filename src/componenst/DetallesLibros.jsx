@@ -20,7 +20,7 @@ const regresar = ()=>{
                     In esse temporibus earum obcaecati minima enim, culpa reprehenderit dolorem cumque, tempore voluptates tenetur perspiciatis saepe unde non nemo repellendus dolore quisquam inventore. Quas ab culpa voluptatem consectetur quod distinctio.</p>
                     
                 <div className='btn__contenedor-detalles'>
-                    <a className='descarga btn-detail' href=""><span>Descargar</span></a>
+                    <a className='descarga btn-detail' href={detal.libro.pdf} target='_blank'><span>Descargar</span></a>
                     <span onClick={regresar} className='regresar btn-detail'><span>Regresar</span></span>
                     </div>
                 </div>

@@ -1,7 +1,8 @@
 .padre__hijo{
     display: flex;
     flex-direction: row;
-    background: linear-gradient(rgba(128, 0, 128, 0.24),rgba(32, 160, 192, 0.363),rgba(219, 163, 7, 0.781));
+    background: linear-gradient(rgba(128, 0, 128, 0.63),rgba(32, 160, 192, 0.589),rgba(219, 163, 7, 0.781));
+    height: 100vh;
 }
 .hijo__navbar{
     
@@ -13,12 +14,26 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 3rem;
-    padding: 1rem;
+    gap: 1rem;
+    /* padding: 1rem; */
     list-style: none;
-    color: #fff;
-    font-weight: 700;
+    color: #242323;
+   
     background: linear-gradient(rgba(128, 0, 128, 0.63),rgba(32, 160, 192, 0.589),rgba(219, 163, 7, 0.781));
+}
+li{
+    cursor: pointer;
+    color: #fff;
+    font-weight: 900;
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+    height: 50px;
+}
+li:hover{
+background: #ffffff;
+color: rgb(0, 242, 255);
 }
 .mariposa__libros-navbar{
     width: 100px;
@@ -52,10 +67,11 @@
 
 }
 .nombre__registro{
-color: #fff;
+color: #ffffff;
 font-weight: 800;
-text-shadow: 1px 1px 1px gray;
+text-shadow: 1px 1px 1px rgb(6, 6, 6);
 font-size: 20px;
+cursor: pointer;
 }
 
 .contenedor__libros{
@@ -66,7 +82,7 @@ font-size: 20px;
     width: 100%;
     height: 100%;
     padding: 1rem;
-    border: 1px solid #a0a0a0;
+    /* border: 1px solid #a0a0a0; */
     background: linear-gradient(rgba(128, 0, 128, 0.24),rgba(32, 160, 192, 0.363),rgba(219, 163, 7, 0.781));
     /* transform:scale(0.9); */
 }
@@ -75,7 +91,7 @@ font-size: 20px;
 } */
 .titulo__libro{
     font-size: 18px;
-    color: rgb(105, 105, 105);
+    color: rgb(29, 28, 28);
     text-shadow: 1px 1px 13px green, 1px 1px 1px blue;
 }
 .img__book{

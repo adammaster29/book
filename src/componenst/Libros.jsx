@@ -16,7 +16,8 @@ const Libros = ({ cartilla,email }) => {
     const inicio = () => {
         navigate(`/`);
     }
-
+ const castellano = cartilla.slice(0,8);
+ const matematicas = cartilla.slice(8,16);
     return (
         <div className='padre__hijo'>
       
@@ -36,11 +37,11 @@ const Libros = ({ cartilla,email }) => {
                 </div>
                 {pagina === 1 && (<h2 className="titulo__libro">Hola!!, Bienvenidos A Matematicas</h2>)}
                 {pagina === 2 && (<h2 className="titulo__libro">Hola!!, Bienvenidos A Castellano</h2>)}
-                  {/* PAGINA UNO MATEMATICA */}
-                {pagina === 1 && (
+                  {/* PAGINA UNO CASTELLANO */}
+                {pagina === 2 && (
                     <div className="contenedor__libros">
                         {
-                            cartilla.map(book => (
+                            castellano.map(book => (
                                 <div className='portada__de-libro'>
 
                                     {/* <h2 className='titulo__libro'>{book.titulo}</h2> */}
@@ -54,11 +55,11 @@ const Libros = ({ cartilla,email }) => {
                     </div>
                 )
                 }
-                {/* PAGINA DOS CASTELLANO */}
-                {pagina === 2 && (
+                {/* PAGINA DOS MATEMATICAS */}
+                {pagina === 1 && (
                     <div className="contenedor__libros">
                         {
-                            cartilla.map(book => (
+                            matematicas.map(book => (
                                 <div className='portada__de-libro'>
 
                                     {/* <h2 className='titulo__libro'>{book.titulo}</h2> */}
