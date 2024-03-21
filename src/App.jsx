@@ -25,7 +25,7 @@ function App() {
         <Routes>
           <Route path='/'  element={<Home traerName={traerName}/>} />
           <Route path='/libros'  element={<Libros email={email} cartilla={cartilla}/> } />
-          <Route path='/detalles/:id' element={<DetallesLibros cartilla={cartilla}/>}/>
+          <Route path='/detalles/:id' element={<DetallesLibros  email={email} cartilla={cartilla}/>}/>
         </Routes>
       </HashRouter>
     </>

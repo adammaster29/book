@@ -1,10 +1,16 @@
 import React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 
-const DetallesLibros = ({ cartilla }) => {
+const DetallesLibros = ({ cartilla,email }) => {
     const { id } = useParams();
     const navigate = useNavigate()
     const detal = cartilla.find((detal) => detal.id === parseInt(id));
+  const descarga = detal?.libro.pdf;
+    const descargar = ()=>{
+    if (email === null) {
+        alert("para descargar primero registrate");
+    }else{descarga};
+   }
 const regresar = ()=>{
     navigate('/libros');
 }
@@ -20,7 +26,7 @@ const regresar = ()=>{
                     In esse temporibus earum obcaecati minima enim, culpa reprehenderit dolorem cumque, tempore voluptates tenetur perspiciatis saepe unde non nemo repellendus dolore quisquam inventore. Quas ab culpa voluptatem consectetur quod distinctio.</p>
                     
                 <div className='btn__contenedor-detalles'>
-                    <a className='descarga btn-detail' href={detal.libro.pdf} target='_blank'><span>Descargar</span></a>
+                    <a className='descarga btn-detail' href={descarga} target='_blank'><span>Descargar</span></a>
                     <span onClick={regresar} className='regresar btn-detail'><span>Regresar</span></span>
                     </div>
                 </div>

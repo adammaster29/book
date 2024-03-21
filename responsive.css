@@ -1,0 +1,38 @@
+/* responsive 600px */
+@media screen and (max-width:600px) {
+    .bx-menu{
+        display: block;
+        z-index: 3;
+        top: 5px;
+    }
+    .cambio{
+        position: absolute;
+        box-shadow: 1px 1px 2px gray;
+        width: 320px;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        list-style: none;
+        color: #242323;
+        background: linear-gradient(rgba(128, 0, 128, 0.63),rgba(32, 160, 192, 0.589),rgba(219, 163, 7, 0.781));
+       margin-left: auto;
+    }
+    .hijo__navbar{
+       margin-left: -20rem;
+        position: fixed;
+    
+    }
+    .portada__de-libro{
+
+        width: 100px;
+        height: 120px;
+        }
+        .contenedor__libros{
+            grid-template-columns: repeat(3, 1fr);
+            padding: 2px;
+            place-items: center;
+        }
+}

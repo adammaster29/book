@@ -14,5 +14,13 @@
 {"id":13,"titulo":"cuaderno de trabajo","image":{"url":"/img/matematica/matematicas-cuaderno-de-trabajo.png"},"libro":{"pdf":"pdf/matematica/1. Matemáticas cuaderno de trabajo.pdf"}},
 {"id":14,"titulo":"Numeros naturales ","image":{"url":"/img/matematica/numeros-Naturales.png"},"libro":{"pdf":"pdf/matematica/4. Los números de los naturales a los complejos Autor Dr. Matias Graña, Dra Gabriela Jeronimo, Dr, Ariel Pacetti.pdf"}},
 {"id":15,"titulo":"ordenando numeros","image":{"url":"/img/matematica/ordenamos-numeros.png"},"libro":{"pdf":"pdf/matematica/52. Ordenamos Números para Primer Grado de Primaria Autor Web del Docente.pdf"}},
-{"id":16,"titulo":"matematica 4","image":{"url":"/img/matematica/matematica-4.png"},"libro":{"pdf":"pdf/matematica/8. Cuaderno para hacer matemática en cuarto Autor DGEIP - Dirección General de Educación Inicial y Primaria.pdf"}}
+{"id":16,"titulo":"matematica 4","image":{"url":"/img/matematica/matematica-4.png"},"libro":{"pdf":"pdf/matematica/8. Cuaderno para hacer matemática en cuarto Autor DGEIP - Dirección General de Educación Inicial y Primaria.pdf"}},
+{"id":17,"titulo":"biologia-celular","image":{"url":"/img/naturales/biologia-celular.png"},"libro":{"pdf":"pdf/naturales/7. Biologia Celular Autor Amada Aleyda Angulo Rodríguez, Alma Rebeca Galindo Uriarte.pdf"}},
+{"id":18,"titulo":"conceptos-biologias","image":{"url":"/img/naturales/biologia-conceptos-fundamentales.png"},"libro":{"pdf":"pdf/naturales/6. Biología - conceptos y fundamentos básicos Autor Luis Ernesto Beltrán, Ana María Campos, German Ricardo Díaz.pdf"}},
+{"id":19,"titulo":"biologia-enfermeria","image":{"url":"/img/naturales/biologia-general-enfermeria.png"},"libro":{"pdf":"pdf/naturales/9. Biología General para la enfermería Autor Guadalupe Núñez Sara Verónica, Fernandez Nieto Miriam Ivonne.pdf"}},
+{"id":20,"titulo":"introduccion-biologia","image":{"url":"/img/naturales/introduccion-biologia-celular.png"},"libro":{"pdf":"pdf/naturales/introduccion-biologia-celular.png"}},
+{"id":21,"titulo":"material de apoyo","image":{"url":"/img/naturales/naturales-8-materialApoyo.png"},"libro":{"pdf":"pdf/naturales/4. Ciencias Naturales. Material de Apoyo, Octavo Grado Autor USAID.pdf"}},
+{"id":22,"titulo":"naturales superior","image":{"url":"/img/naturales/naturales-basica-superior.png"},"libro":{"pdf":"pdf/naturales/5. Ciencias Naturales Básica Superior. 8.º, 9.º y 10.º Grado Autor Byron Patricio Villarreal Ramírez, Freddy Tituaña, Andrea Paola Zárate Oviedo.pdf"}},
+{"id":23,"titulo":"ciencias naturales","image":{"url":"/img/naturales/naturales-egb3.png"},"libro":{"pdf":"pdf/naturales/2. Ciencias Naturales I Autor Silvia Armani, Adriana Cacciavillani, Cristina Zamorano, Alejandra Acevedo.pdf"}},
+{"id":24,"titulo":"naturales-9","image":{"url":"/img/naturales/naturales-grado-9.png"},"libro":{"pdf":"pdf/naturales/3. Ciencias Naturales 9. Texto del Estudiante Autor Ana Cristina Villalba Batallas.pdf"}}
 ]
