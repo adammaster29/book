@@ -4,10 +4,11 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url(https://i.pinimg.com/originals/df/f1/6c/dff16cb229514bc2bc7b3ced7dfbb172.gif);
+  background-image: url(/img/gif/pensil-loncat-unscreen.gif);
   background-repeat: no-repeat;  
-  background-size: cover;
+  /* background-size: cover; */
   background-position: center;
+
 }
 /* modo oscuro. */
 

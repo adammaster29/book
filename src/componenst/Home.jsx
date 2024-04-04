@@ -42,46 +42,46 @@ useEffect(()=>{
   return (
     <div className='padre__login'>
       <div className="hijo__ingreso">
-        <h1 className='titulo__iniciar-sesion'>Iniciar Sesión</h1>
+        <h1 className='titulo__iniciar-sesion'>Login</h1>
         <div className='contenedor__input'>
           <input
             className='input__login'
             type="text"
-            placeholder='Nombre'
+            placeholder='Name'
            
             onChange={(e) => setEmail(e.target.value)}
           />
           <input
             className='input__login'
             type="password"
-            placeholder='Contraseña'
+            placeholder='Password'
             
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
-        <button className='btn__ingresar' onClick={handleLogin}>Ingresar</button>
+        <button className='btn__ingresar' onClick={handleLogin}>Login</button>
       </div>
       <div className="hijo__registro">
-        <h2 className="titulo__registro">¿Aún No Tienes Una Cuenta?</h2>
-        <p className='p__subtitulo-registrarse'>Regístrate Para Que Puedas Iniciar Sesión</p>
+        <h2 className="titulo__registro">¿Do not you have an account yet?</h2>
+        <p className='p__subtitulo-registrarse'>Register to login</p>
         {/* Formulario de registro */}
         <div className='contenedor__input'>
           <input
             className='input__registro input__login '
             type="text"
-            placeholder='Nombre'
+            placeholder='Name'
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
           <input
             className='input__registro input__login '
             type="password"
-            placeholder='Contraseña'
+            placeholder='Password'
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
-        <button className='btn__registrarse' onClick={handleRegister}>Registrarse</button>
+        <button className='btn__registrarse' onClick={handleRegister}>Register</button>
       </div>
     </div>
   );

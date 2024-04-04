@@ -21,30 +21,37 @@ const Libros = ({ cartilla, email }) => {
     const inicio = () => {
         navigate(`/`);
     }
+    const learn_english = () => {
+        navigate(`/learn`);
+    }
     const castellano = cartilla.slice(0, 8);
     const matematicas = cartilla.slice(8, 16);
     const naturales = cartilla.slice(16, 24);
+    const quimica = cartilla.slice(24, 32);
+    const ingles = cartilla.slice(32, 40);
     return (
         // className="hijo__navbar"
         <div className='padre__hijo'>
             <i onClick={amburguesa} className='bx bx-menu bx-flip-vertical' ></i>
             <ul className={navb ? "cambio" : " hijo__navbar"} >
-                <img className='mariposa__libros-navbar' src="/img/gif/Mariposa.gif" alt="" />
-                <li onClick={() => cambioPaina(1)}>Matematicas</li>
-                <li onClick={() => cambioPaina(2)}>Castellano</li>
-                <li onClick={() => cambioPaina(3)}>Naturales</li>
-                <li>Quimicas</li>
-                <li>Sociales</li>
-                <li>Fisica</li>
-                <li>Ingles</li>
+                <img className='mariposa__libros-navbar' src="/img/gif/lapiz.gif" alt="" />
+                <li onClick={() => cambioPaina(1)}>Math</li>
+                <li onClick={() => cambioPaina(2)}>spanish</li>
+                <li onClick={() => cambioPaina(3)}>Biology</li>
+                <li onClick={() => cambioPaina(4)}>Chemistry</li>
+                <li onClick={() => cambioPaina(5)}>English</li>
+                <li onClick={learn_english}>Learn English</li>
+                {/* <li>Fisica</li>  */}
             </ul>
             <div className="hijo__libros">
                 <div className="buscador__libros">
-                    <input type="text" placeholder='Buscador de libros' className="input__libros " /><span onClick={inicio} className='nombre__registro'>{email ? `${email}` : `registrarse`}</span>
+                    <input type="text" placeholder='Buscador de libros' className="input__libros " /><span onClick={inicio} className='nombre__registro'>{email ? `${email}` : `Register`}</span>
                 </div>
-                {pagina === 1 && (<h2 className="titulo__libro">Hola!!, Bienvenidos A Matematicas</h2>)}
-                {pagina === 2 && (<h2 className="titulo__libro">Hola!!, Bienvenidos A Castellano</h2>)}
-                {pagina === 3 && (<h2 className="titulo__libro">Hola!!, Bienvenidos A Naturales</h2>)}
+                {pagina === 1 && (<h2 className="titulo__libro">Hello!!, Welcome to Math</h2>)}
+                {pagina === 2 && (<h2 className="titulo__libro">Hello!!, Welcome to spanish</h2>)}
+                {pagina === 3 && (<h2 className="titulo__libro">Hello!!, Welcome to Biology</h2>)}
+                {pagina === 4 && (<h2 className="titulo__libro">Hello!!, Welcome to Chemistry</h2>)}
+                {pagina === 5 && (<h2 className="titulo__libro">Hello!!, Welcome to English</h2>)}
                 {/* PAGINA DOS MATEMATICAS */}
                 {pagina === 1 && (
                     <div className="contenedor__libros">
@@ -86,6 +93,42 @@ const Libros = ({ cartilla, email }) => {
                     <div className="contenedor__libros">
                         {
                             naturales.map(book => (
+                                <div className='portada__de-libro'>
+
+
+                                    <img onClick={() => rutaDetalles(book.id)} className='img__book' src={book.image.url} alt="img" />
+                                </div>
+
+                            ))
+                        }
+
+
+                    </div>
+                )
+                }
+                 {/* PAGINA cuatro quimica */}
+                 {pagina === 4 && (
+                    <div className="contenedor__libros">
+                        {
+                            quimica.map(book => (
+                                <div className='portada__de-libro'>
+
+
+                                    <img onClick={() => rutaDetalles(book.id)} className='img__book' src={book.image.url} alt="img" />
+                                </div>
+
+                            ))
+                        }
+
+
+                    </div>
+                )
+                }
+                 {/* PAGINA cuatro quimica */}
+                 {pagina === 5 && (
+                    <div className="contenedor__libros">
+                        {
+                            ingles.map(book => (
                                 <div className='portada__de-libro'>
 
 

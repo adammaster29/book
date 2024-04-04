@@ -8,6 +8,7 @@ import Libros from './componenst/Libros'
 import libro from '/nameLibro.json';
 import DetallesLibros from './componenst/DetallesLibros'
 import { useEffect, useState } from 'react'
+import Learn from './componenst/Learn'
 
 function App() {
   const [cartilla, setCartilla] = useState([]);
@@ -26,6 +27,7 @@ function App() {
           <Route path='/'  element={<Home traerName={traerName}/>} />
           <Route path='/libros'  element={<Libros email={email} cartilla={cartilla}/> } />
           <Route path='/detalles/:id' element={<DetallesLibros  email={email} cartilla={cartilla}/>}/>
+          <Route path='/learn'  element={<Learn/> } />
         </Routes>
       </HashRouter>
     </>

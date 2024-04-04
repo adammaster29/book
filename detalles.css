@@ -11,6 +11,8 @@
   transform: scale(0.8);
   box-shadow: 0 31px 20px 0 gray;
 }
+/* .hijo__img:hover{
+} */
 .titulo__Detalles{
     color: rgb(95, 94, 94);
     font-size: 35px;
