@@ -3,6 +3,7 @@ import { HashRouter, Route, Routes } from 'react-router-dom'
 import '../App.css'
 import '../libro.css'
 import '../detalles.css'
+import "../Responsive_detalles.css"
 import Home from './componenst/Home'
 import Libros from './componenst/Libros'
 import libro from '/nameLibro.json';

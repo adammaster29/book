@@ -40,7 +40,7 @@ const Libros = ({ cartilla, email }) => {
                 <li onClick={() => cambioPaina(3)}>Biology</li>
                 <li onClick={() => cambioPaina(4)}>Chemistry</li>
                 <li onClick={() => cambioPaina(5)}>English</li>
-                <li onClick={learn_english}>Learn English</li>
+                {/* <li   onClick={learn_english}>Learn English</li>  */}
                 {/* <li>Fisica</li>  */}
             </ul>
             <div className="hijo__libros">
